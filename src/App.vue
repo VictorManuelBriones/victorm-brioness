@@ -7,6 +7,16 @@
 </template>
 
 <style>
-@import url("./assets/css/black-theme.css");
-@import url("./assets/css/carousel.css");
+@import url("./assets/css/style.css");
+/* @import url("./assets/css/black-theme.css"); */
+@import url("./assets/vendor/icofont/icofont.min.css");
+@import url("./assets/vendor/boxicons/css/boxicons.min.css");
 </style>
+
+<script>
+import './assets/vendor/jqueryeasing/jquery'
+import './assets/js/principal'
+export default {
+  
+}
+</script>

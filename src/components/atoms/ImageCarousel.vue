@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import coverimg from '../../assets/img/cover.png';
+import coverimg from '../../assets/img/cover.jpg';
 export default {
     name: 'ImageCarousel',
     data() {

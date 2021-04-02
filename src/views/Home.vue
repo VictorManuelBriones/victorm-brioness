@@ -1,35 +1,31 @@
 <template>
-  <div>
-    <Navbar/>
-    <Carousel/>
-    <Toast/>
-    <div class="container marketing">
-      <Techno/>
-      <hr class="featurette-divider">
-      <Projects/>
-      <hr class="featurette-divider">
-      <Footer/>
-    </div>
-  </div>
+  <body>
+    <Header/>
+    <Hero/>
+    <main id="main">
+      <About/>
+      <Skills/>
+    </main>
+    <Footer/>
+  </body>
 </template>
 
 <script>
-import Navbar from '@/components/Navbar.vue';
-import Carousel from '@/components/Carousel.vue';
-import Techno from '@/components/Techno.vue';
-import Footer from '@/components/Footer.vue';
-import Projects from '@/components/Projects.vue';
-import Toast from '@/components/molecules/Toast.vue';
+import Header from '../components/Header.vue';
+import Hero from '../components/molecules/Hero.vue';
+import About from '../components/About.vue';
+import Skills from '../components/Skills.vue';
+import Footer from '../components/Footer.vue';
 
 export default {
   name: 'Home',
   components: {
-    Navbar,
-    Carousel,
-    Techno,
+    Header,
+    Hero,
+    About,
+    Skills,
     Footer,
-    Projects,
-    Toast
-  }
+  },
+  
 }
 </script>
