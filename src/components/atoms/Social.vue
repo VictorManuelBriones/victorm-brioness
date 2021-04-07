@@ -1,5 +1,5 @@
 <template>
-  <a :href="link"><i :class="logo"></i></a> 
+  <a target="_blank" :href="link"><i :class="logo"></i></a> 
 </template>
 
 <script>
