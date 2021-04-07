@@ -5,7 +5,7 @@
 
         <div class="section-title">
           <Heading :heading="heading"/>
-          <Text :text="text"/>
+          <Text :text="text3"/>
         </div>
 
         <div class="row">
@@ -14,11 +14,10 @@
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <Title :title="title"/>
-            <Text :text="text2"/>
+            <Text :text="text"/>
             <div class="row">
               <Data/>
             </div>
-            <Text :text="text2"/>
           </div>
         </div>
 
@@ -32,7 +31,7 @@ import Image from './atoms/Image.vue'
 import Text from './atoms/Text.vue'
 import Data from './molecules/Data.vue'
 
-import img from '../assets/img/2.png'
+import img from '../assets/img/customerreview.svg'
 import Title from './atoms/Title.vue'
 export default {
   components: { 
@@ -45,10 +44,15 @@ export default {
   data() {
     return {
       heading: "Sobre mí",
-      text: "Conoce un poco sobre mi",
+      text: 'Entre las cosas que más me apasionan ' +
+      'hacer están los deportes de equipo como el fútbol y el basquetbol así también disfruto de la música tanto escucharla' +
+      ' como estar dentro de su desarrollo, es mis tiempos libres le dedico a producir variantes de música electrónica como' +
+      ' Trap, Hardstyle y EDM.',
       img: img,
       title: 'Desarrollador Full Stack',
-      text2: 'Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.'
+      text2: 'Mis datos de contacto.',
+      text3: 'Hola, soy Victor Manuel Briones, me apasiona el desarrollo web y la tecnología, la música y los deportes, aquí en mi' +
+      ' portafolio personal encontraras más sobre mí y de lo más me gusta hacer.'
     }
   },
 

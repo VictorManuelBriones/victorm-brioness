@@ -1,5 +1,5 @@
 <template>
-    <img class="mr-3 icon" alt="...">
+  <img alt="">
 </template>
 
 <script>
@@ -10,7 +10,7 @@ export default {
 
 <style scoped>
     img{
-        width: 100px;
-        height: 100px;
+        width: 40%;
+        height: 40%;
     }
 </style>

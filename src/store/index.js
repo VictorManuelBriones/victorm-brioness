@@ -19,44 +19,43 @@ export default createStore({
       {
         image: javascript,
         heading: "JavaScript",
-        text: "Esto es Javascript"
+        text: "Desarrollo de páginas web implementado JS y sus Frameworks VueJS y Angular."
       },
       {
         image: php,
         heading: "PHP",
-        text: "Esto es PHP"
+        text: "Desarrollo de aplicaciones y páginas web con PHP y su Framework Laravel."
       },
       {
         image: python,
         heading: "Python",
-        text: "Esto es Python"
+        text: "Fundamentos de programacíon con Python y desarrollo web con Django."
       },
-      {
+      /* {
         image: java,
         heading: "Java",
         text: "Esto es Java"
-      },
+      }, */
       {
         image: html,
         heading: "HTML",
-        text: "Esto es HTML"
+        text: "Maquetación de SPA, aplicaciones y sistemas web con HTML5."
       },
       {
         image: mysql,
         heading: "SQL",
-        text: "Esto es SQL"
+        text: "Modelado de base de datos relacionales para sistemas y aplicaciones web."
       },
       {
         image: css,
         heading: "CSS",
-        text: "Esto es CSS"
+        text: "Maquetación de aplicaciones web con CSS3 y Frameworks como Bootstrap y UIkit."
       },
     ],
     social: [
-      {image: facebook},
-      {image: github},
-      {image: linkedin},
-      {image: twitter},
+      {class: 'bx bxl-github', link: 'https://github.com/VictorManuelBriones'},
+      {class: 'bx bxl-linkedin', link: 'https://www.linkedin.com/in/victor-manuel-briones-sánchez-5571941b9'},
+      {class: 'bx bxl-twitter', link: 'https://twitter.com/VictorBrione'},
     ],
     data: [
       {name: 'Teléfono',fact: '(+52) 241-104-58-53'},

@@ -1,11 +1,11 @@
 <template>
   <div class="profile">
-        <ImageProfile :src="img"/>
-        <h1 class="text-light"><a href="index.html">Victor Manuel Briones</a></h1>
-        <div class="social-links mt-3 text-center">
-          <Social v-for="(item, index) in social" :key="index" :image="item.image"/>
-        </div>
-      </div>
+    <ImageProfile :src="img"/>
+    <h1 class="text-light"><a href="#">Victor Manuel Briones</a></h1>
+    <div class="social-links mt-3 text-center">
+      <Social v-for="(item, index) in social" :key="index" :class="item.class" :link="item.link"/>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -30,6 +30,6 @@ export default {
 }
 </script>
 
-<style>
-  
+<style scoped>
+   
 </style>

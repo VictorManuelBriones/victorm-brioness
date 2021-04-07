@@ -1,5 +1,5 @@
 <template>
-    <section id="services" class="services">
+    <section id="skills" class="services">
       <div class="container">
         <div class="section-title">
           <Heading :heading="heading"/>
@@ -23,7 +23,7 @@ export default {
     data() {
         return {
             heading: 'Habilidades',
-            text: 'Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.'
+            text: 'Entre las habilidades que más destaco dentro del desarrollo web.'
         }
     },
     computed: {

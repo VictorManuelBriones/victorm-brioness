@@ -3,7 +3,7 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Victor Manuel Briones</span></strong>
+        &copy; Victor Manuel Briones
       </div>
     </div>
   </footer><!-- End  Footer -->

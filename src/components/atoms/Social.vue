@@ -1,5 +1,5 @@
 <template>
-  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> 
+  <a :href="link"><i :class="logo"></i></a> 
 </template>
 
 <script>
@@ -8,6 +8,17 @@ export default {
     image: {
       type: String,
     },
+    class: {
+      type: String,
+    },
+    link: {
+      type: String
+    }
+  },
+  computed: {
+    logo() {
+      return this.class 
+    }
   },
 
 }
