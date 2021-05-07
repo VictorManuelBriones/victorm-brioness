@@ -29,7 +29,7 @@ export default createStore({
       {
         image: python,
         heading: "Python",
-        text: "Fundamentos de programacíon con Python y desarrollo web con Django."
+        text: "Fundamentos de programación con Python y desarrollo web con Django."
       },
       /* {
         image: java,
@@ -63,6 +63,40 @@ export default createStore({
       {name: 'Ciudad',fact: 'Tlaxco, Tlaxcala, México'},
       {name: 'Edad',fact: '22 Años'},
       {name: 'Educación',fact: 'Ingeniero en TI'}
+    ],
+    resume: [
+      {
+        title: 'Desarrollador y DBA',
+        year: 'Mayo 2019 - Agosto 2019',
+        enterprice: 'SMP Motherson',
+        skills: [
+          {skill: 'Desarrollo  y programación de un sistema interno para la empresa'},
+          {skill: 'Modelado de base de datos relacional para el sistema'},
+          {skill: 'Trabajo bajo metodología ágil SCRUM'},
+          {skill: 'Programación en PHP, Jquery, SQLServer y JavasScript'},
+        ]
+      },
+      {
+        title: 'Desarrollador web',
+        year: 'Septiembre 2020 - Diciembre 2020',
+        enterprice: 'IMTECHMEX S.A.P.I de C.V.',
+        skills: [
+          {skill: 'Desarrollo de una aplicación web para la empresa'},
+          {skill: 'Programación, maquetación y diseño de aplicación web'},
+          {skill: 'Trabajo bajo metodología ágil SCRUM'},
+          {skill: 'Programación fullstack en Laravel, VueJS y MySQL'},
+        ]
+      },
+      {
+        title: 'Desarrollador freelancer',
+        year: 'Enero 2020 - Actual',
+        enterprice: 'Autonómo',
+        skills: [
+          {skill: 'Desarrollo web fullstack'},
+          {skill: 'Programación, maquetación y diseño de aplicaciones web en frontend y backend'},
+          {skill: 'Cofundador de empresa de desarrollo Solutions'},
+        ]
+      }
     ]
   },
   mutations: {

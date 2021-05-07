@@ -51,8 +51,7 @@ export default {
       img: img,
       title: 'Desarrollador Full Stack',
       text2: 'Mis datos de contacto.',
-      text3: 'Hola, soy Victor Manuel Briones, me apasiona el desarrollo web y la tecnología, la música y los deportes, aquí en mi' +
-      ' portafolio personal encontraras más sobre mí y de lo más me gusta hacer.'
+      text3: 'Hola, soy Victor Manuel Briones, me apasiona el desarrollo web y la tecnología, la música y los deportes, aquí en mi portafolio personal encontrarás más sobre mí y de lo más me gusta hacer.'
     }
   },
 
