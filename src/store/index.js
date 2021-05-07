@@ -58,11 +58,9 @@ export default createStore({
       {class: 'bx bxl-twitter', link: 'https://twitter.com/VictorBrione'},
     ],
     data: [
-      {name: 'Teléfono',fact: '(+52) 241-104-58-53'},
-      {name: 'Correo',fact: 'victorm140399@gmail.com'},
       {name: 'Ciudad',fact: 'Tlaxco, Tlaxcala, México'},
       {name: 'Edad',fact: '22 Años'},
-      {name: 'Educación',fact: 'Ingeniero en TI'}
+      {name: 'Educación',fact: 'Ingeniero en Tecnologías de la información y Comunicación'}
     ],
     resume: [
       {
@@ -88,7 +86,7 @@ export default createStore({
         ]
       },
       {
-        title: 'Desarrollador freelancer',
+        title: 'Desarrollador freelance',
         year: 'Enero 2020 - Actual',
         enterprice: 'Autonómo',
         skills: [

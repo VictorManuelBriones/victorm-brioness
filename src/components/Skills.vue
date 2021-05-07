@@ -23,7 +23,7 @@ export default {
     data() {
         return {
             heading: 'Habilidades',
-            text: 'Entre las habilidades que más destaco dentro del desarrollo web.'
+            text: 'Aquí se muestran las de las tecnologías con las que he trabajado durante mi carrera profesional y en mis proyectos profesionales, así como mencionar algunos de los frameworks con los que he trabajado.'
         }
     },
     computed: {

@@ -1,13 +1,10 @@
 <template>
-      <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container">
-
         <div class="section-title">
           <Heading :heading="heading"/>
           <Text :text="text3"/>
         </div>
-
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
             <Image :src="img"/>
@@ -20,9 +17,8 @@
             </div>
           </div>
         </div>
-
       </div>
-    </section><!-- End About Section -->
+    </section>
 </template>
 
 <script>
@@ -44,14 +40,10 @@ export default {
   data() {
     return {
       heading: "Sobre mí",
-      text: 'Entre las cosas que más me apasionan ' +
-      'hacer están los deportes de equipo como el fútbol y el basquetbol así también disfruto de la música tanto escucharla' +
-      ' como estar dentro de su desarrollo, es mis tiempos libres le dedico a producir variantes de música electrónica como' +
-      ' Trap, Hardstyle y EDM.',
+      text: 'Bienvenido a mi sitio oficial, donde podrás saber más sobre mí y mi desarrollo profesional como ingeniero en TI, mi gusto por la tecnología especialmente el desarrollo web y la programación, verás más de lo que me gusta hacer y algunos de los proyectos que he realizado y he colaborado profesionalmente hasta ahora.',
       img: img,
       title: 'Desarrollador Full Stack',
       text2: 'Mis datos de contacto.',
-      text3: 'Hola, soy Victor Manuel Briones, me apasiona el desarrollo web y la tecnología, la música y los deportes, aquí en mi portafolio personal encontrarás más sobre mí y de lo más me gusta hacer.'
     }
   },
 
