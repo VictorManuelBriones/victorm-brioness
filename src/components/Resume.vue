@@ -66,7 +66,7 @@ export default {
   data() {
       return {
           heading: 'Experiencia',
-          text: 'Mi experiencia hasta ahora es académica y proyectos desarrollados a micro negocios y a dos empresas' + 
+          text: 'Mi experiencia hasta ahora es académica y proyectos desarrollados a micro negocios y a dos empresas ' + 
           'dentro del estado, una multinacional y la otra local durante mis estadías profesionales para obtener mis títulos, ' + 
           'desenvolviéndome como líder de equipo en su mayoría y participando en la parte frontend y backend ahora estoy en una etapa freelance y emprendimiento.',
           back: back,

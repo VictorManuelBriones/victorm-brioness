@@ -87,7 +87,7 @@ export default createStore({
       },
       {
         title: 'Desarrollador freelance',
-        year: 'Enero 2020 - Actual',
+        year: 'Enero 2021 - Actual',
         enterprice: 'Autonómo',
         skills: [
           {skill: 'Desarrollo web fullstack'},
